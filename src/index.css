@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#info-panel {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.85);
+  /* Make it a bit darker */
+  color: white;
+  padding: 20px;
+  /* Increase padding */
+  border-radius: 10px;
+  /* Slightly larger border radius */
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  /* Increase the width */
+  z-index: 10;
+  font-size: 16px;
+  /* Larger font size */
+}
+
+#info-panel h2 {
+  font-size: 24px;
+  /* Larger heading */
+}
+
+#info-panel p {
+  margin: 10px 0;
+  /* Add some space between paragraphs */
+  font-size: 18px;
+  /* Increase text size */
+}

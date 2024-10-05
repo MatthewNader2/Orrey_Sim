@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+  /* Set the background color to black */
+}
+
+#three-canvas {
+  display: block;
+  /* Ensure the canvas is block-level */
+}
+
+#info-panel {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.85);
+  /* Make it a bit darker */
+  color: white;
+  padding: 20px;
+  /* Increase padding */
+  border-radius: 10px;
+  /* Slightly larger border radius */
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  /* Increase the width */
+  z-index: 10;
+  font-size: 16px;
+  /* Larger font size */
+}
+
+#info-panel h2 {
+  font-size: 24px;
+  /* Larger heading */
+}
+
+#info-panel p {
+  margin: 10px 0;
+  /* Add some space between paragraphs */
+  font-size: 18px;
+  /* Increase text size */
+}
